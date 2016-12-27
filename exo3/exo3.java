@@ -1,8 +1,12 @@
+//Decompte de caractere
+//by Hicham
+//beWeb
+
 //cette algo compte le nombre de e
 import java.util.*;
 //importation de la bibliotheque java
 
-public class Exo3{
+public class exo3{
 //appel du fichier compile
 	public static void main(String[] args){
 

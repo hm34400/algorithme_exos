@@ -1,3 +1,7 @@
+#Decompte de caractere
+#by Hicham
+#beWeb
+
 #cette algo compte le nombre de t
 $word = "anttttti"
 $carac = "t"
