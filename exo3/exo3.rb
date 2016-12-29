@@ -2,26 +2,23 @@
 #by Hicham
 #beWeb
 
-#cette algo compte le nombre de t
-$word = "anttttti"
-$carac = "t"
-$resultat = 0
-#initialisation du nombre de "t" a zero
-$i = 0
-#initialisation de l'index donc index 0
+def countChar(word,char)
+	word = ARGV[0]
+	char = ARGV[1]
+	resultat = 0
+	i = 0
 
-while $i < $word.length
-#tant que index inferieur a la longueur du mot cela exectute le code ci-dessous
-	if $word[$i] == $carac
-#si a l'index ou je me trouve c'est bien un "n" j'incremente de 1
-		$resultat += 1
+	#tant que index inferieur a la longueur du mot cela exectute le code ci-dessous
+	while i < word.length
+		#si a l'index ou je me trouve c'est bien un "n" j'incremente de 1
+		if word[i] == char
+			resultat += 1
+		end
+	#et je passe a l'index suivant
+	i += 1
 	end
-#fin de ma condition
-$i += 1
-#et je passe a l'index suivant
+	print "Le nombre de #{char} dans #{word} est: #{resultat}\r\n"
+
 end
-#fin de ma condition
 
-print ("le nombre de caractereRecherche est : #{$resultat}\r\n")
-
-# \r =retour chariot et \n = passage a la ligne
+countChar(ARGV[0],ARGV[1])
