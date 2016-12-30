@@ -18,7 +18,7 @@ public class exo3{
 			}
 		i++;
 		}
-	System.out.println("le nombre de caractereRecherche est : "+resultat);
+	System.out.println("le nombre de " + carac +" est : "+resultat);
 	}
 
 }
