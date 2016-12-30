@@ -9,11 +9,9 @@ def countLetter(word,letter):
 
     resultat = 0
     i = 0
-    #Savoir le nombre d element dans la liste d arguments
-    if len(sys.argv) == 0:
-        #sys.argv permet de manipuler les arguments [word] et [letter] dans la ligne de commande
-        sys.argv[1:word]
-        sys.argv[2:letter]
+    #sys.argv permet de manipuler les arguments [word] et [letter] dans la ligne de commande
+    word = sys.argv[1]
+    letter = sys.argv[2]
 
 
     #si la lettre a l'index i est egale a la lettre de la variable letter
